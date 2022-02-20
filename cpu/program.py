@@ -1,4 +1,4 @@
-import subprocess, time, sys, pathlib, io
+import subprocess, time, sys, pathlib
 
 from .presentation import cpu_print, cpu_progress
 from .checker import token_checker
@@ -6,7 +6,7 @@ from termcolor import colored
 from tqdm import tqdm
 
 class Program:
-	""" Wrapper class for dealing with programs. """
+	""" Wrapper class for dealing with batch programs. """
 
 	def __init__(self, path_to_exec):
 		self.path_to_exec = path_to_exec
